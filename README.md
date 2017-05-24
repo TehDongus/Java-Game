@@ -4,3 +4,5 @@ Learning to make java games with Marcus Dubreuil's youtube series:
 
 This is a repository of code I wrote following along Marcus' video with plans to expand additional features to gain a deeper
 understanding of how to make games in java. 
+
+To run, run main in Game.java
