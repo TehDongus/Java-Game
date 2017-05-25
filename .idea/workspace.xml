@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4be22af0-4b1a-4d24-8b2a-22cabd67366b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/marcusGameTutorial/GUI.class" afterPath="$PROJECT_DIR$/out/production/marcusGameTutorial/GUI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/marcusGameTutorial/Game.class" afterPath="$PROJECT_DIR$/out/production/marcusGameTutorial/Game.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/marcusGameTutorial/SDKButton.class" afterPath="$PROJECT_DIR$/out/production/marcusGameTutorial/SDKButton.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI.java" afterPath="$PROJECT_DIR$/src/GUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUIButton.java" afterPath="$PROJECT_DIR$/src/GUIButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Game.java" afterPath="$PROJECT_DIR$/src/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SDKButton.java" afterPath="$PROJECT_DIR$/src/SDKButton.java" />
     </list>
     <ignored path="marcusGameTutorial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -142,6 +137,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -521,6 +517,14 @@
       <option name="presentableId" value="Default" />
       <updated>1494702775201</updated>
     </task>
+    <task id="LOCAL-00001" summary="fixed rudimentary tile sdk gui">
+      <created>1495687035909</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495687035909</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -563,6 +567,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fixed rudimentary tile sdk gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed rudimentary tile sdk gui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
