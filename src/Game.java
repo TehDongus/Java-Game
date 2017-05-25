@@ -89,21 +89,21 @@ public class Game extends JFrame implements Runnable
         map = new Map(new File("Map.txt"), tiles);
 
         //Load SDK GUI
-//        GUIButton[] buttons = new GUIButton[tiles.size()];
-//        Sprite[] tileSprites = tiles.getSprites();
-//
-//        for (int i = 0; i < buttons.length; i++) {
-//            Rectangle tileRectangle = new Rectangle(0, i*(16*xZoom), 16,16);
-//            buttons[i] = new SDKButton(tileSprites[i], tileRectangle);
-//        }
-//
-//        GUI gui = new GUI(buttons, 5, 5, true);
+        GUIButton[] buttons = new GUIButton[tiles.size()];
+        Sprite[] tileSprites = tiles.getSprites();
+
+        for (int i = 0; i < buttons.length; i++) {
+            Rectangle tileRectangle = new Rectangle(0, i*(16*xZoom), 16, 16);
+            buttons[i] = new SDKButton(tileSprites[i], tileRectangle);
+        }
+
+        GUI gui = new GUI(buttons, 5, 5, true);
 
         //Load Objects
-        objects = new GameObject[1];
+        objects = new GameObject[2];
         player = new Player(playerAnimations);
         objects[0] = player;
-        //objects[1] = gui;
+        objects[1] = gui;
 
         //Add Listeners
         canvas.addKeyListener(keyListener);
@@ -135,6 +135,7 @@ public class Game extends JFrame implements Runnable
 
         map.render(renderer, xZoom,yZoom);
         player.render(renderer, xZoom, yZoom);
+        objects[1].render(renderer, xZoom, yZoom);
 
         //renderer.renderRectangle(testRectangle, 1,1);
         //renderer.renderSprite(testSprite, 0, 0, 5, 5);

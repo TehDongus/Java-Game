@@ -6,7 +6,7 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
 public class GUI implements GameObject{
     private Sprite backgroundSprite;
     private GUIButton[] buttons;
-    private Rectangle rect;
+    private Rectangle rect = new Rectangle();
     private Boolean fixed;
 
     public GUI(Sprite backgroundSprite, GUIButton[] buttons, int x, int y, boolean fixed){
@@ -32,7 +32,7 @@ public class GUI implements GameObject{
 
         if(buttons != null) {
             for (int i = 0; i < buttons.length; i++) {
-                buttons[i].render(renderer, xZoom, yZoom);
+                buttons[i].render(renderer, xZoom, yZoom, rect);
             }
         }
     }
